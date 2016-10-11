@@ -1,10 +1,10 @@
-title: Anthony Pesce
+title: Lily Mazet Mihalik
 portrait: "/static/img/anthony-pesce_crop.jpg"
-short_description: I write code and words @latimes
-description: Anthony Pesce is a journalist and programmer at the Los Angeles Times.
-url: "http://anthonypesce.com"
-twitter_username: anthonyjpesce
-github_username:  anthonyjpesce
+short_description: tk @latimes
+description: Lily Mihalik is a journalist and designer at the Los Angeles Times.
+url: "http://lilymihalik.com"
+twitter_username: mazet
+github_username:  lilymihalik
 
 # Build settings
 markdown: kramdown
