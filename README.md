@@ -1,4 +1,4 @@
-lily.github.io
+lilymihalik.github.io
 =======================
 
 Just another portfolio
