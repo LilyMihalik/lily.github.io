@@ -38,8 +38,23 @@ layout: default
         </div>
         {% endfor %}
     </div>
+    <div class="row three">
+        {% for project in page.lead_projects2 %}
+        <div class="one-third column">
+            <a href="{{ project.url }}">
+                <img src="{{ project.img }}" />
+            </a>
+            <a href="{{ project.url }}">
+                <h4>{{ project.headline }}</h4>
+            </a>
+            <a href="{{ project.url }}">
+                <p>{{ project.description }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
 </div>
-<h3 class="center">Selected Work</h3>
+<!-- <h3 class="center">Selected Work</h3>
 <div class="container">
     <div class="row">
         <ul id="work-list" class="eight columns">
@@ -55,4 +70,4 @@ layout: default
         {% endfor %}
         </ul>
     </div>
-</div>
+</div> -->
