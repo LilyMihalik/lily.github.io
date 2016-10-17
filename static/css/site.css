@@ -1,3 +1,6 @@
+header {
+   display: none;
+}
 .highlight {
     background: #F7FF97;
 }
@@ -16,19 +19,21 @@ h1 {
     margin-bottom: 5px;
 }
 h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
     font-size: 18px;
     color: #424242;
 }
 h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
     font-size: 24px;
     color: #424242;
     line-height: 120%;
     margin: 10px 0;
 }
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 16px;
     color: #424242;
@@ -37,24 +42,41 @@ p {
 img {
     max-width: 100%;
 }
-.topper, .footer {
-    height: 14px;
-    width: 100%;
-    background: #70A3E7;
-}
 .topper {
     margin-bottom: 40px;
+}
+.this_is_lily .find_me p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.3em;
+    padding: 8% 0 0 15%;
+}
+.topper .find_me p a{
+    text-decoration:none;
+}
+.this_is_lily p {
+    padding: 0 15% 2%;
+    font-size: 6vh;
+    line-height: 1.3em;
+}
+.this_is_lily p.more {
+    font-size: 2vh;
+    padding-top: 0px;
+    border-bottom: 1px solid #3F9FFF;
+    padding-bottom: 8%;
+}
+.topper a{
+    color: #3F9FFF;
+    text-decoration: underline;
+}
+.topper a:hover{
+    color: #3879B9;
 }
 .footer {
     margin-top: 40px;
 }
-img.portrait {
-    width: 70px;
-    height: auto;
-    border-radius: 5px;
-    display: block;
-    margin-bottom: 5px;
-}
+
 img.social {
     width: 20px;
     margin: 0 1px;
@@ -67,14 +89,8 @@ img.social {
 .portrait-container-desktop:first-child img.social {
     margin-left:7px;
 }
-header {
-    max-width: 550px;
-    margin: 0px auto;
-    margin-bottom: 40px;
-}
-header p {
-    font-size: 27px;
-}
+
+
 .row.three {
     border-bottom: 1px solid #DFDFDF;
     padding-bottom: 25px;
@@ -144,18 +160,6 @@ ul {
     .one-third.column {
          width: 100%; 
          margin-left: 0;
-    }
-    .portrait-container-desktop {
-        float: none;
-        margin-bottom: 15px;
-    }
-    .portrait-container-desktop img.portrait {
-        display: none;
-    }
-    .portrait-container-mobile {
-        display: block;
-        float: right;
-        margin-left: 15px;
     }
     .header {
         float: none;
