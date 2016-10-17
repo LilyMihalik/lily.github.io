@@ -135,8 +135,10 @@ ul {
 }
 
 @media (max-width: 600px) {
-    h1 {
-        line-height: 110%;
+    .this_is_lily p {
+    padding: 0 10% 2%;
+    font-size: 4.5vh;
+    line-height: 1.5em;
     }
     #work-list {
         width: 100%;
