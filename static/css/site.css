@@ -7,6 +7,9 @@ header {
 .highlight-blue {
     background: #70A3E7;
 }
+.container{
+   padding-top: 3%
+}
 a {
     text-decoration: none;
     color: inherit;
