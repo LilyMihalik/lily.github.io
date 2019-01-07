@@ -86,4 +86,19 @@ layout: default
                 </div>
                 {% endfor %}
             </div>
+            <div class="row three">
+                {% for project in page.lead_projects5 %}
+                <div class="one-third column">
+                    <a href="{{ project.url }}">
+                        <img src="{{ project.img }}" />
+                    </a>
+                    <a href="{{ project.url }}">
+                        <h4>{{ project.headline }}</h4>
+                    </a>
+                    <a href="{{ project.url }}">
+                        <p>{{ project.description }}</p>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
         </div>
