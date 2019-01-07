@@ -9,17 +9,17 @@ layout: default
     <div class="row this_is_lily">
         <div class="find_me">
         <p>
-        <a href="http://github.com/{{ site.github_username }}">
+        <a target="_blank" href="http://github.com/{{ site.github_username }}">
             <img class="social" src="/static/img/github.png" />
         </a>
-        <a href="http://twitter.com/{{ site.twitter_username }}">
+        <a target="_blank" href="http://twitter.com/{{ site.twitter_username }}">
             <img class="social" src="/static/img/twitter.jpg" />
         </a>
         </p>
         </div>
 
         <p>
-          Lily Mihalik is a <a target="blank" href="https://www.ire.org/conferences/nicar2015/lightning-talks/#mihalik">design thinker</a> at POLITICO. She leads UX/UI efforts for tools, daily news and special projects. She works with developers, editors, journalists and data scientists to tell better, <a target="blank" href="https://www.politico.com/election-results/2018/predict-congress/">more engaging</a> stories online. Stories like our mobile-first <a target="blank" href="https://www.politico.com/election-results/2018/election-day-live-updates-analysis/nov-6/">live chat</a>, <a target="blank" href="https://www.politico.com/interactives/2018/trump-russia-investigation-ties/"> this database-driven explainer</a> and ⚡-fast <a target="blank" href="https://www.politico.com/election-results/2018/house/">fastest election results</a>. She leads the newsroom to <a target="blank" href="https://www.politico.com/interactives/2018/where-is-elaine-chao/">better vizualize the news</a>, and builds <a target="blank" href="https://www.politico.com/interactives/2017/trump-organization-business-domain-names-vegas-moscow/">interactives</a> to delight.
+          Lily Mihalik is a <a target="blank" href="https://www.ire.org/conferences/nicar2015/lightning-talks/#mihalik">design thinker</a> at POLITICO. She leads UX/UI efforts for tools, daily news and special projects. She works with developers, editors, journalists and data scientists to tell better, <a target="blank" href="https://www.politico.com/election-results/2018/predict-congress/">more engaging</a> stories online. Stories like POLIICO's mobile-first <a target="blank" href="https://www.politico.com/election-results/2018/election-day-live-updates-analysis/nov-6/">live chat</a>, <a target="blank" href="https://www.politico.com/interactives/2018/trump-russia-investigation-ties/"> this database-driven explainer</a> and ⚡- fast <a target="blank" href="https://www.politico.com/election-results/2018/house/">election results</a>. Lily leads the newsroom to <a target="blank" href="https://www.politico.com/interactives/2018/where-is-elaine-chao/">think visually</a> and craft <a target="blank" href="https://www.politico.com/interactives/2017/trump-organization-business-domain-names-vegas-moscow/">stories</a> that delight.
         </p>
 
         <p class="more">Before coming to POLITICO, Lily led digital design efforts at the Los Angeles Times where she worked with others to re-think <a target="blank" href="http://www.latimes.com/local/lanow/la-me-ln-san-bernardino-shooting-live-updates-day-one-20151202-htmlstory.html">live coverage</a>, launch their <a target="blank" href="http://recipes.latimes.com/recipe-berry-pavlova-with-vanilla-whipped-cream-and-pistachios/">California Cookbook</a>, and ran UX on their new publishing tool <a target="blank" href="http://www.niemanlab.org/2016/08/the-los-angeles-times-built-its-own-journalist-friendly-story-editor-and-its-now-rolling-out-to-all-of-tronc/">SNAP</a>. See more of her work below, or reach out via email at l[lastname]@politico.com
@@ -30,13 +30,13 @@ layout: default
   <div class="row three">
       {% for project in page.lead_projects4 %}
       <div class="one-third column">
-          <a href="{{ project.url }}">
+          <a target="_blank" href="{{ project.url }}">
               <img src="{{ project.img }}" />
           </a>
-          <a href="{{ project.url }}">
+          <a target="_blank" href="{{ project.url }}">
               <h4>{{ project.headline }}</h4>
           </a>
-          <a href="{{ project.url }}">
+          <a target="_blank" href="{{ project.url }}">
               <p>{{ project.description }}</p>
           </a>
       </div>
@@ -45,13 +45,13 @@ layout: default
     <div class="row three">
         {% for project in page.lead_projects %}
         <div class="one-third column">
-            <a href="{{ project.url }}">
+            <a target="_blank" href="{{ project.url }}">
                 <img src="{{ project.img }}" />
             </a>
-            <a href="{{ project.url }}">
+            <a target="_blank" href="{{ project.url }}">
                 <h4>{{ project.headline }}</h4>
             </a>
-            <a href="{{ project.url }}">
+            <a target="_blank" href="{{ project.url }}">
                 <p>{{ project.description }}</p>
             </a>
         </div>
@@ -60,13 +60,13 @@ layout: default
     <div class="row three">
         {% for project in page.lead_projects2 %}
         <div class="one-third column">
-            <a href="{{ project.url }}">
+            <a target="_blank" href="{{ project.url }}">
                 <img src="{{ project.img }}" />
             </a>
-            <a href="{{ project.url }}">
+            <a target="_blank" href="{{ project.url }}">
                 <h4>{{ project.headline }}</h4>
             </a>
-            <a href="{{ project.url }}">
+            <a target="_blank" href="{{ project.url }}">
                 <p>{{ project.description }}</p>
             </a>
         </div>
@@ -75,13 +75,13 @@ layout: default
     <div class="row three">
         {% for project in page.lead_projects3 %}
         <div class="one-third column">
-            <a href="{{ project.url }}">
+            <a target="_blank" href="{{ project.url }}">
                 <img src="{{ project.img }}" />
             </a>
-            <a href="{{ project.url }}">
+            <a target="_blank" href="{{ project.url }}">
                 <h4>{{ project.headline }}</h4>
             </a>
-            <a href="{{ project.url }}">
+            <a target="_blank" href="{{ project.url }}">
                 <p>{{ project.description }}</p>
             </a>
         </div>
@@ -96,11 +96,11 @@ layout: default
         {% for project in page.other_projects %}
             <li>
             {% if project.img %}
-                <a href="{{ project.url }}">
+                <a target="_blank" href="{{ project.url }}">
                     <img src="{{ project.img }}" />
                 </a>
             {% endif %}
-                <a href="{{ project.url }}">{{ project.description }}</a>
+                <a target="_blank" href="{{ project.url }}">{{ project.description }}</a>
             </li>
         {% endfor %}
         </ul>
