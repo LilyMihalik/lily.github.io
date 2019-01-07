@@ -23,6 +23,21 @@ layout: default
         <p class="more">Before coming to POLITICO, Lily led digital design efforts at the Los Angeles Times where she worked with others to re-think <a target="blank" href="http://www.latimes.com/local/lanow/la-me-ln-san-bernardino-shooting-live-updates-day-one-20151202-htmlstory.html">live coverage</a>, launch their <a target="blank" href="http://recipes.latimes.com/recipe-berry-pavlova-with-vanilla-whipped-cream-and-pistachios/">California Cookbook</a>, and ran UX on their new publishing tool <a target="blank" href="http://www.niemanlab.org/2016/08/the-los-angeles-times-built-its-own-journalist-friendly-story-editor-and-its-now-rolling-out-to-all-of-tronc/">SNAP</a>. See more of her work below, or reach out via email at l[lastname]@politico.com
 </div>
 <div class="container">
+  <div class="row three">
+      {% for project in page.lead_projects4 %}
+      <div class="one-third column">
+          <a href="{{ project.url }}">
+              <img src="{{ project.img }}" />
+          </a>
+          <a href="{{ project.url }}">
+              <h4>{{ project.headline }}</h4>
+          </a>
+          <a href="{{ project.url }}">
+              <p>{{ project.description }}</p>
+          </a>
+      </div>
+      {% endfor %}
+  </div>
     <div class="row three">
         {% for project in page.lead_projects %}
         <div class="one-third column">
