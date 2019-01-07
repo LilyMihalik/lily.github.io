@@ -28,7 +28,7 @@ layout: default
 
 <div class="container">
   <div class="row three">
-      {% for project in page.lead_projects %}
+      {% for project in page.lead_projects4 %}
       <div class="one-third column">
           <a target="_blank" href="{{ project.url }}">
               <img src="{{ project.img }}" />
@@ -43,7 +43,37 @@ layout: default
       {% endfor %}
   </div>
     <div class="row three">
+        {% for project in page.lead_projects %}
+        <div class="one-third column">
+            <a target="_blank" href="{{ project.url }}">
+                <img src="{{ project.img }}" />
+            </a>
+            <a target="_blank" href="{{ project.url }}">
+                <h4>{{ project.headline }}</h4>
+            </a>
+            <a target="_blank" href="{{ project.url }}">
+                <p>{{ project.description }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="row three">
         {% for project in page.lead_projects2 %}
+        <div class="one-third column">
+            <a target="_blank" href="{{ project.url }}">
+                <img src="{{ project.img }}" />
+            </a>
+            <a target="_blank" href="{{ project.url }}">
+                <h4>{{ project.headline }}</h4>
+            </a>
+            <a target="_blank" href="{{ project.url }}">
+                <p>{{ project.description }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="row three">
+        {% for project in page.lead_projects3 %}
         <div class="one-third column">
             <a target="_blank" href="{{ project.url }}">
                 <img src="{{ project.img }}" />
