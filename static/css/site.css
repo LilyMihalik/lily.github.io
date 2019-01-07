@@ -62,12 +62,12 @@ img {
     text-decoration:none;
 }
 .this_is_lily p {
-    padding: 0 15% 5%;
+    padding: 0 15% 6%;
     font-size: 6vh;
     line-height: 1.3em;
 }
 .this_is_lily p.more {
-    font-size: 2.5vh;
+    font-size: 2.45vh;
     padding-top: 0px;
     border-bottom: 1px solid #3F9FFF;
     padding-bottom: 8%;
