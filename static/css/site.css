@@ -89,6 +89,10 @@ img.social {
     height: auto;
     display: inline-block;
 }
+img.social.linked{
+   width: 23px;
+   margin-left: -2px;
+}
 .portrait-container-desktop a {
     display: inline-block;
 }
